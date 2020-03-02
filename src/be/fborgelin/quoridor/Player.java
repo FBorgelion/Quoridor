@@ -6,9 +6,9 @@ public class Player {
 	Pawn pawn;
 	
 	//Constructor
-	public Player(int nWalls, Pawn pawn) {
+	public Player(int nWalls, Pawn pawn) { //maybe delete pawn var)
 		this.nWalls = nWalls;
-		pawn = new Pawn(0, 0);
+		pawn = new Pawn(0, 0); //change the player constructor to get 1 pawn per player (not correct here)
 	}
 	
 	//Accessors
