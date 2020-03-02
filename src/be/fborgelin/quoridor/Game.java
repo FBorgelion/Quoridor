@@ -8,8 +8,8 @@ public class Game {
 	Pawn pieceP1;
 	Pawn pieceP2;
 	
-	Player p1 = new Player(5, pieceP1);
-	Player p2 = new Player(5, pieceP2);
+	Player p1 = new Player(pieceP1);
+	Player p2 = new Player(pieceP2);
 	
 	Board board;
 	

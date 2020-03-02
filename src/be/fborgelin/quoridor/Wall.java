@@ -4,6 +4,7 @@ public class Wall implements PlayablePieces {
 	
 	private int n;
 	private int p;
+	Wall wall;
 	
 	public Wall(int n, int p) {
 		this.n = n;
@@ -31,7 +32,6 @@ public class Wall implements PlayablePieces {
 	 * méthode traduisant les coords en case de tableau
 	 */
 	public Coordinates getCoordinates() {	
-		Wall wall = new Wall(n, p);
 		int a = wall.getN();
 		int b = wall.getP();
 		return new Coordinates(a, b);
@@ -39,8 +39,8 @@ public class Wall implements PlayablePieces {
 
 	@Override
 	public void setCoordinates(int n, int p) {
-		setN(n);
-		setP(p);		
+		wall.setN(n);
+		wall.setP(p);		
 	}
 
 

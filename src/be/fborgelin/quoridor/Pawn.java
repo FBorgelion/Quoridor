@@ -4,6 +4,7 @@ public class Pawn implements PlayablePieces {
 	
 	private int n;
 	private int p;
+	Pawn pawn;
 	
 	public Pawn(int n, int p) {
 		this.n = n;
@@ -28,7 +29,6 @@ public class Pawn implements PlayablePieces {
 
 	@Override
 	public Coordinates getCoordinates() {
-		Pawn pawn = new Pawn(n, p);
 		int a = pawn.getN();
 		int b = pawn.getP();
 		return new Coordinates(a, b);
@@ -36,8 +36,8 @@ public class Pawn implements PlayablePieces {
 
 	@Override
 	public void setCoordinates(int n, int p) {
-		setN(n);
-		setP(p);
+		pawn.setN(n);
+		pawn.setP(p);
 	}
 
 
