@@ -27,7 +27,7 @@ public class Pawn implements PlayablePieces {
 	}
 
 	@Override
-	public Coordinates getCoordinates() {
+	public Coordinates getCoordinates() { //will be modify to get a pawn in args (idem in pawn class)
 		Pawn pawn = new Pawn(n, p);
 		int a = pawn.getN();
 		int b = pawn.getP();
