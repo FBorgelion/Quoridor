@@ -2,13 +2,13 @@ package be.fborgelin.quoridor;
 
 public class Player {
 	
-	private int nWalls;	//nombre murs du joueur
-	private Pawn pawn;	//attribution d'un pion au joueur
+	private int nWalls = 10;	//number of walls per player set on 10
+	Pawn pawn;
 	
 	//Constructor
-	public Player(int w, Pawn p) {
-		nWalls = w;
-		pawn = p;
+	public Player(int nWalls, Pawn pawn) {
+		this.nWalls = nWalls;
+		pawn = new Pawn(0, 0);
 	}
 	
 	//Accessors
@@ -20,10 +20,6 @@ public class Player {
 	public void setnWalls(int v) {
 		nWalls = v;
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	
 
 }

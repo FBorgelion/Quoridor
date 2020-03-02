@@ -24,7 +24,7 @@ public class Board {
 			}
 		}
 	}	
-	
+/*	
 	//Methods
 	public void displayBoard() {	//affiche le board
 		System.out.println();
@@ -36,5 +36,5 @@ public class Board {
 		}
 		System.out.println();
 	}
-
+*/
 }

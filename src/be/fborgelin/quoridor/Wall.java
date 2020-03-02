@@ -30,11 +30,17 @@ public class Wall implements PlayablePieces {
 	/* créer un dico reprenant ces coords et les associer à l'objet auquel elles sont liés
 	 * méthode traduisant les coords en case de tableau
 	 */
-	public CoupleOfNumbers getCoordonates() {	
+	public Coordinates getCoordinates() {	
 		Wall wall = new Wall(n, p);
 		int a = wall.getN();
 		int b = wall.getP();
-		return new CoupleOfNumbers(a, b);
+		return new Coordinates(a, b);
+	}
+
+	@Override
+	public void setCoordinates(int n, int p) {
+		setN(n);
+		setP(p);		
 	}
 
 

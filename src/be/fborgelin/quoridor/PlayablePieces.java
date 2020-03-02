@@ -2,7 +2,9 @@ package be.fborgelin.quoridor;
 
 public interface PlayablePieces {
 	
-	public CoupleOfNumbers getCoordonates();
+	public Coordinates getCoordinates();
+	
+	public void setCoordinates(int n, int p);
 	
  
 	

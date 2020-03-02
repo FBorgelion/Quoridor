@@ -27,11 +27,17 @@ public class Pawn implements PlayablePieces {
 	}
 
 	@Override
-	public CoupleOfNumbers getCoordonates() {
+	public Coordinates getCoordinates() {
 		Pawn pawn = new Pawn(n, p);
 		int a = pawn.getN();
 		int b = pawn.getP();
-		return new CoupleOfNumbers(a, b);
+		return new Coordinates(a, b);
+	}
+
+	@Override
+	public void setCoordinates(int n, int p) {
+		setN(n);
+		setP(p);
 	}
 
 

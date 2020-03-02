@@ -1,6 +1,6 @@
 package be.fborgelin.quoridor;
 
-public class CoupleOfNumbers {
+public class Coordinates {
 	
 	//Attributs
 	private int a;
@@ -24,7 +24,7 @@ public class CoupleOfNumbers {
 	}
 	
 	//Constructor
-	public CoupleOfNumbers(int a, int b) {
+	public Coordinates(int a, int b) {
 		this.a = a;
 		this.b = b;
 	}
