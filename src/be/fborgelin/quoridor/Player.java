@@ -12,7 +12,7 @@ public class Player {
 		for(int i = 0; i < n; i++) {		//create a certain number of walls and store in wallInventory 
 			Wall wall = new Wall(i, i);
 			wallInventory[i] = wall;
-		}
+		} 
 	}
 	
 	//Accessors
