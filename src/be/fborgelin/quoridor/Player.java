@@ -2,13 +2,13 @@ package be.fborgelin.quoridor;
 
 public class Player {
 	
-	private int nWalls = 10;	//number of walls per player set on 10
+	private int nWalls = 10;	
 	Pawn pawn;
 	
 	//Constructor
-	public Player(int nWalls, Pawn pawn) { //maybe delete pawn var)
+	public Player(int nWalls, Pawn pawn) {
 		this.nWalls = nWalls;
-		pawn = new Pawn(0, 0); //change the player constructor to get 1 pawn per player (not correct here)
+		pawn = new Pawn(0, 0); 
 	}
 	
 	//Accessors
