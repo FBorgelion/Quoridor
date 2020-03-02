@@ -6,7 +6,7 @@ public class Game {
 	int p = 7; //board 7x7 default
 	
 	Pawn pieceP1;
-	Pawn pieceP2; //will delete these pawn args and modify object player (am i right ?)
+	Pawn pieceP2; 
 	
 	Player p1 = new Player(pieceP1);
 	Player p2 = new Player(pieceP2);
