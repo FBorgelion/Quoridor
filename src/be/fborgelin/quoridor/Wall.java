@@ -4,7 +4,7 @@ public class Wall implements PlayablePieces {
 	
 	private int n;
 	private int p;
-	Wall wall;
+	private Wall wall;
 	
 	public Wall(int n, int p) {
 		this.n = n;

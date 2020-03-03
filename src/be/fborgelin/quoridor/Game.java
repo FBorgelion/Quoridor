@@ -2,8 +2,8 @@ package be.fborgelin.quoridor;
 
 public class Game {
 	
-	int n = 7;
-	int p = 7; //board 7x7 default
+	private final int n = 7;
+	private final int p = 7; //board 7x7 default
 	
 	Pawn pieceP1;
 	Pawn pieceP2; 

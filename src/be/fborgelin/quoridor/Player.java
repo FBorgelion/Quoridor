@@ -3,7 +3,7 @@ package be.fborgelin.quoridor;
 public class Player {
 	
 	private int nWalls = 5;	//number of walls per player set on 10
-	Wall wallInventory[] = new Wall[nWalls];
+	private Wall wallInventory[] = new Wall[nWalls];
 	
 	//Constructor
 	public Player(Pawn pawn) {

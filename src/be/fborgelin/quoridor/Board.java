@@ -9,9 +9,9 @@ public class Board {
 	}	
 	
 	//Attributs
-	public int nCols;
-	public int nLines;
-	public PlayablePieces[][] board; //tableau pouvant contenir differents types de pions
+	private int nCols;
+	private int nLines;
+	private PlayablePieces[][] board; //tableau pouvant contenir differents types de pions
 	
 	//Constructor
 	public Board(int n, int p) {
@@ -23,6 +23,22 @@ public class Board {
 				board[i][j] = null;		
 			}
 		}
-	}	
+	}
+	
+	public int getNCols() {
+		return nCols;
+	}
+	
+	public void setNCols(int n) {
+		nCols = n;
+	}
+	
+	public int getNLines() {
+		return nLines;
+	}
+	
+	public void setNLines(int p) {
+		nLines = p;
+	}
 
 }

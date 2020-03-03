@@ -4,7 +4,7 @@ public class Pawn implements PlayablePieces {
 	
 	private int n;
 	private int p;
-	Pawn pawn;
+	private Pawn pawn;
 	
 	public Pawn(int n, int p) {
 		this.n = n;
