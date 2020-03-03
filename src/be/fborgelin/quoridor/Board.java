@@ -9,9 +9,9 @@ public class Board {
 	}	
 	
 	//Attributs
-	private int nCols;
-	private int nLines;
-	private PlayablePieces[][] board; //tableau pouvant contenir differents types de pions
+	public int nCols;
+	public int nLines;
+	public PlayablePieces[][] board; //tableau pouvant contenir differents types de pions
 	
 	//Constructor
 	public Board(int n, int p) {
@@ -24,17 +24,5 @@ public class Board {
 			}
 		}
 	}	
-/*	
-	//Methods
-	public void displayBoard() {	//affiche le board
-		System.out.println();
-		for(int i = 0; i < nLines; i++) {
-			for(int j = 0; j < nCols; j++) {		         
-				System.out.print(" | " + board[i][j]);
-			}
-			System.out.println(" | ");
-		}
-		System.out.println();
-	}
-*/
+
 }
