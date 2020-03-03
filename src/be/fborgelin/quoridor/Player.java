@@ -10,8 +10,7 @@ public class Player {
 		int n = this.nWalls;
 		pawn = new Pawn(0, 0);
 		for(int i = 0; i < n; i++) {		//create a certain number of walls and store in wallInventory 
-			Wall wall = new Wall(i, i);
-			wallInventory[i] = wall;
+			wallInventory[i] = new Wall(0, 0);
 		} 
 	}
 	
